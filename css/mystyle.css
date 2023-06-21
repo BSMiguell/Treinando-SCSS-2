@@ -1,0 +1,35 @@
+:root {
+  --body-color: #f0f4fd;
+  --body-color-middle: #282567;
+  --purple-color: #5848e1;
+  --text-color: #373737;
+  --orange-color: #dd9d48;
+  --middle-thin-color: #c6c0ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 0;
+  background-color: var(--body-color);
+}
+
+.card-container {
+  width: 100%;
+  min-width: 1000px;
+  min-height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}/*# sourceMappingURL=mystyle.css.map */
